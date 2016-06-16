@@ -1,0 +1,30 @@
+Running in wrapper mode for '20010'
+
+Running python job.
+
+job_id : 20010
+{u'gamma_value': [u'1e-1'], u'C_value': array([ 0.])}
+Yo
+----------------------------------------
+Problem running the job:
+(<type 'exceptions.ValueError'>, ValueError(u'C <= 0',), <traceback object at 0x7fe820c17e18>)
+Traceback (most recent call last):
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/spearmint-master/spearmint/spearmint/runner.py", line 41, in job_runner
+    elif job.language == PYTHON: run_python_job(job)
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/spearmint-master/spearmint/spearmint/runner.py", line 131, in run_python_job
+    result = module.main(job.id, params)
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/Testing/Bike_Sharing/BikeUsageOnCleanedData.py", line 50, in main
+    result = svr(params['C_value'],params['gamma_value'])
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/Testing/Bike_Sharing/BikeUsageOnCleanedData.py", line 25, in svr
+    model.fit(train[columns_1], train["casual"])
+  File "/usr/lib/python2.7/dist-packages/sklearn/svm/base.py", line 176, in fit
+    fit(X, y, sample_weight, solver_type, kernel, random_seed=seed)
+  File "/usr/lib/python2.7/dist-packages/sklearn/svm/base.py", line 231, in _dense_fit
+    max_iter=self.max_iter, random_seed=random_seed)
+  File "libsvm.pyx", line 187, in sklearn.svm.libsvm.fit (sklearn/svm/libsvm.c:2190)
+ValueError: C <= 0
+None
+----------------------------------------
+Job file reloaded.
+Could not find value in output file.
+Job failed in 0.33 seconds.

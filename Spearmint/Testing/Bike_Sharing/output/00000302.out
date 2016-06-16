@@ -1,0 +1,14 @@
+Running in wrapper mode for '302'
+
+Running python job.
+
+job_id : 302
+{u'gamma_value': [u'1e-2'], u'C_value': array([ 1.23046875])}
+Yo
+2014.21535708
+Got result 2014.215357
+
+Job file reloaded.
+Completed successfully in 0.39 seconds. [2014.215357]
+setting job 302 complete
+set...

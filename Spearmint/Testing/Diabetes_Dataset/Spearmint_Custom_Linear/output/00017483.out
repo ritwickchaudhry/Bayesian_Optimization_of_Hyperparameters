@@ -1,0 +1,14 @@
+Running in wrapper mode for '17483'
+
+Running python job.
+
+job_id : 17483
+{u'custom_linear_hyperparameters': array([-0.30004883,  3.50073242, -3.48608398,  3.73852539, -3.81079102,
+        1.55444336,  2.77905273,  2.68237305,  3.10473633, -3.41870117]), u'C': array([ 0.27758789]), u'epsilon': array([ 1.73803711])}
+83.8090574287
+Got result 83.809057
+
+Job file reloaded.
+Completed successfully in 0.43 seconds. [83.809057]
+setting job 17483 complete
+set...

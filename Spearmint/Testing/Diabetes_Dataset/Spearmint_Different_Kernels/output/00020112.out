@@ -1,0 +1,22 @@
+Running in wrapper mode for '20112'
+
+Running python job.
+
+job_id : 20112
+{u'kernel': [u'rbf'], u'C': array([ 10.]), u'custom_rbf_hyperparameters': array([ 2.16601655,  2.66857899, -1.427426  , -2.        ,  2.40874694,
+        1.96251212,  0.23938451, -0.1272494 , -1.97486341,  1.43261165]), u'degree': array([2]), u'gamma': array([ 10.])}
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+55.140701511
+Got result 55.140702
+
+Job file reloaded.
+Completed successfully in 0.44 seconds. [55.140702]
+setting job 20112 complete
+set...

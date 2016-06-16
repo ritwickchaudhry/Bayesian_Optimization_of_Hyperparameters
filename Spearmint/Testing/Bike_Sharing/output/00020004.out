@@ -1,0 +1,14 @@
+Running in wrapper mode for '20004'
+
+Running python job.
+
+job_id : 20004
+{u'gamma_value': [u'1e-3'], u'C_value': array([ 0.9316493])}
+Yo
+1982.48762246
+Got result 1982.487622
+
+Job file reloaded.
+Completed successfully in 0.37 seconds. [1982.487622]
+setting job 20004 complete
+set...

@@ -1,0 +1,14 @@
+Running in wrapper mode for '20004'
+
+Running python job.
+
+job_id : 20004
+{u'custom_linear_hyperparameters': array([ 4.        , -4.        , -1.13591918,  3.26757532,  3.23736616,
+       -3.99956667, -3.86450004,  3.06426431,  2.32643539,  3.86633966]), u'C': array([ 2.06536105]), u'epsilon': array([-0.20046727])}
+58.1776642909
+Got result 58.177664
+
+Job file reloaded.
+Completed successfully in 0.69 seconds. [58.177664]
+setting job 20004 complete
+set...

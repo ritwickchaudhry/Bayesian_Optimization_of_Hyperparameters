@@ -1,0 +1,14 @@
+Running in wrapper mode for '20022'
+
+Running python job.
+
+job_id : 20022
+{u'kernel_hyperparameters': array([ 4.        ,  3.22375082,  3.48217181,  1.02981301, -2.4286658 ,
+        3.32046989, -3.3670334 ,  2.99661903, -2.75488622,  4.        ])}
+71.6264692979
+Got result 71.626469
+
+Job file reloaded.
+Completed successfully in 34.80 seconds. [71.626469]
+setting job 20022 complete
+set...

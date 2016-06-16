@@ -1,0 +1,12 @@
+Job launching after 0.17 seconds in submission.
+Running python job.
+Changed into dir /home/ritwick2/Hopkins/Spearmint/Testing/Gaussian_Process
+Importing Estimate_Function_Minima.py
+Running Estimate_Function_Minima.main()
+Got result -0.662206415196
+Completed successfully in 0.28 seconds. [{u'main': -0.66220641519571499}]
+--------------
+job_id : 105
+{u'x': array([ 8.55773926])}
+[ 8.55773926]
+[-0.66220642]

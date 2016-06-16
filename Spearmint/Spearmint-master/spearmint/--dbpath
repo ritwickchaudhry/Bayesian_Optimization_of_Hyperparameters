@@ -1,0 +1,24 @@
+2016-06-15T01:13:02.726+0530 [initandlisten] MongoDB starting : pid=10622 port=27017 dbpath=/data/db 64-bit host=Ritwick-PC
+2016-06-15T01:13:02.726+0530 [initandlisten] db version v2.6.3
+2016-06-15T01:13:02.727+0530 [initandlisten] git version: nogitversion
+2016-06-15T01:13:02.727+0530 [initandlisten] OpenSSL version: OpenSSL 1.0.1f 6 Jan 2014
+2016-06-15T01:13:02.727+0530 [initandlisten] build info: Linux toyol 3.2.0-75-generic #110-Ubuntu SMP Tue Dec 16 19:11:55 UTC 2014 x86_64 BOOST_LIB_VERSION=1_55
+2016-06-15T01:13:02.727+0530 [initandlisten] allocator: tcmalloc
+2016-06-15T01:13:02.727+0530 [initandlisten] options: { processManagement: { fork: true }, systemLog: { destination: "file", path: "--dbpath" } }
+2016-06-15T01:13:02.728+0530 [initandlisten] exception in initAndListen: 10296 
+*********************************************************************
+ ERROR: dbpath (/data/db) does not exist.
+ Create this directory or give existing directory in --dbpath.
+ See http://dochub.mongodb.org/core/startingandstoppingmongo
+*********************************************************************
+, terminating
+2016-06-15T01:13:02.728+0530 [initandlisten] dbexit: 
+2016-06-15T01:13:02.728+0530 [initandlisten] shutdown: going to close listening sockets...
+2016-06-15T01:13:02.728+0530 [initandlisten] shutdown: going to flush diaglog...
+2016-06-15T01:13:02.728+0530 [initandlisten] shutdown: going to close sockets...
+2016-06-15T01:13:02.728+0530 [initandlisten] shutdown: waiting for fs preallocator...
+2016-06-15T01:13:02.728+0530 [initandlisten] shutdown: lock for final commit...
+2016-06-15T01:13:02.728+0530 [initandlisten] shutdown: final commit...
+2016-06-15T01:13:02.728+0530 [initandlisten] shutdown: closing all files...
+2016-06-15T01:13:02.728+0530 [initandlisten] closeAllFiles() finished
+2016-06-15T01:13:02.728+0530 [initandlisten] dbexit: really exiting now

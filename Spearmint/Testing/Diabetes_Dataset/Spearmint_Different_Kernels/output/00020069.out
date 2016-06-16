@@ -1,0 +1,24 @@
+Running in wrapper mode for '20069'
+
+Could not unlock file: /home/ritwick/Desktop/Hopkins/Spearmint/Testing/Diabetes_Dataset/Spearmint_Different_Kernels/expt-grid.pkl.
+Exception Exception: Exception('Could not release lock on job grid.\n',) in <bound method ExperimentGrid.__del__ of <ExperimentGrid.ExperimentGrid instance at 0x7f992470e710>> ignored
+Running python job.
+
+job_id : 20069
+{u'kernel': [u'rbf'], u'C': array([ 10.]), u'custom_rbf_hyperparameters': array([ 2.92819083,  3.        , -2.        , -1.8844213 ,  2.27172751,
+        0.05546386, -1.19269643,  0.74923734, -1.95641725,  1.16285525]), u'degree': array([2]), u'gamma': array([ 10.])}
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+55.140701511
+Got result 55.140702
+
+Job file reloaded.
+Completed successfully in 0.86 seconds. [55.140702]
+setting job 20069 complete
+set...

@@ -1,0 +1,14 @@
+Best result: 65.213013
+Job-id: 20092
+Parameters: 
+name: "kernel_hyperparameters"
+dbl_val: 4.0
+dbl_val: 4.0
+dbl_val: 4.0
+dbl_val: 1.09910431734
+dbl_val: 4.0
+dbl_val: 3.66991193758
+dbl_val: -4.0
+dbl_val: 3.53559003223
+dbl_val: -1.01962266397
+dbl_val: 4.0

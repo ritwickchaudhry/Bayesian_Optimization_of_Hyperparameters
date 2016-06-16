@@ -1,0 +1,14 @@
+Running in wrapper mode for '1023'
+
+Running python job.
+
+job_id : 1023
+{u'gamma_value': [u'1e-4'], u'C_value': array([ 0.00195312])}
+Yo
+2017.75842121
+Got result 2017.758421
+
+Job file reloaded.
+Completed successfully in 0.37 seconds. [2017.758421]
+setting job 1023 complete
+set...

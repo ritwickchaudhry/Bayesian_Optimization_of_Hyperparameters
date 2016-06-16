@@ -1,0 +1,34 @@
+Running in wrapper mode for '1'
+
+Running python job.
+
+job_id : 1
+{u'custom_linear_hyperparameters': array([ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.]), u'C': array([ 0.]), u'epsilon': array([ 0.])}
+----------------------------------------
+Problem running the job:
+(<type 'exceptions.ValueError'>, ValueError("Input contains NaN, infinity or a value too large for dtype('float64').",), <traceback object at 0x7f848eabec68>)
+Traceback (most recent call last):
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/spearmint-master/spearmint/spearmint/runner.py", line 41, in job_runner
+    elif job.language == PYTHON: run_python_job(job)
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/spearmint-master/spearmint/spearmint/runner.py", line 131, in run_python_job
+    result = module.main(job.id, params)
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/Testing/Diabetes_Dataset/Spearmint_Custom_Linear/Diabetes.py", line 56, in main
+    result = svr(params['C'],params['epsilon'],params['custom_linear_hyperparameters'])
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/Testing/Diabetes_Dataset/Spearmint_Custom_Linear/Diabetes.py", line 43, in svr
+    model.fit(gram_matrix_train, Train_Targets)
+  File "/usr/lib/python2.7/dist-packages/sklearn/svm/base.py", line 137, in fit
+    X = atleast2d_or_csr(X, dtype=np.float64, order='C')
+  File "/usr/lib/python2.7/dist-packages/sklearn/utils/validation.py", line 165, in atleast2d_or_csr
+    force_all_finite)
+  File "/usr/lib/python2.7/dist-packages/sklearn/utils/validation.py", line 142, in _atleast2d_or_sparse
+    force_all_finite=force_all_finite)
+  File "/usr/lib/python2.7/dist-packages/sklearn/utils/validation.py", line 122, in array2d
+    _assert_all_finite(X_2d)
+  File "/usr/lib/python2.7/dist-packages/sklearn/utils/validation.py", line 43, in _assert_all_finite
+    " or a value too large for %r." % X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+None
+----------------------------------------
+Job file reloaded.
+Could not find value in output file.
+Job failed in 0.42 seconds.

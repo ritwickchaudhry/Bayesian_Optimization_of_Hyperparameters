@@ -1,0 +1,16 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "Estimate_Function_Minima.py",
+    "experiment-name" : "Function_Sample_From_Gausian_Process",
+    "likelihood"      : "GAUSSIAN",
+    "variables" : {
+        "x" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 10
+        }
+    }
+}
+
+

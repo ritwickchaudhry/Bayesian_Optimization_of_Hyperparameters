@@ -1,0 +1,13 @@
+Running in wrapper mode for '0'
+
+Running python job.
+
+job_id : 0
+{u'custom_linear_hyperparameters': array([-4., -4., -4., -4., -4., -4., -4., -4., -4., -4.]), u'C': array([-4.]), u'epsilon': array([-4.])}
+83.8090574287
+Got result 83.809057
+
+Job file reloaded.
+Completed successfully in 0.44 seconds. [83.809057]
+setting job 0 complete
+set...

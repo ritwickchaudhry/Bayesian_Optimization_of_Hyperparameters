@@ -1,0 +1,7 @@
+Best result: 1639.175946
+Job-id: 6613
+Parameters: 
+name: "C_value"
+dbl_val: 1.97387695312
+name: "gamma_value"
+str_val: "1e-5"

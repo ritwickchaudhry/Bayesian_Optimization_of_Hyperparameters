@@ -1,0 +1,18 @@
+Best result: 57.185704
+Job-id: 20003
+Parameters: 
+name: "custom_linear_hyperparameters"
+dbl_val: 4.0
+dbl_val: -4.0
+dbl_val: -1.29981364914
+dbl_val: 3.1939627687
+dbl_val: 4.0
+dbl_val: -4.0
+dbl_val: -3.52271502955
+dbl_val: 2.9150501806
+dbl_val: 2.30323501183
+dbl_val: 3.40487722041
+name: "C"
+dbl_val: 2.19882490842
+name: "epsilon"
+dbl_val: 0.959756978376

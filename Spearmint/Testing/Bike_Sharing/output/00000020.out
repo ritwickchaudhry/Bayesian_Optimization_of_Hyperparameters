@@ -1,0 +1,14 @@
+Running in wrapper mode for '20'
+
+Running python job.
+
+job_id : 20
+{u'gamma_value': [u'1e-1'], u'C_value': array([ 0.9375])}
+Yo
+1838.32990299
+Got result 1838.329903
+
+Job file reloaded.
+Completed successfully in 0.43 seconds. [1838.329903]
+setting job 20 complete
+set...

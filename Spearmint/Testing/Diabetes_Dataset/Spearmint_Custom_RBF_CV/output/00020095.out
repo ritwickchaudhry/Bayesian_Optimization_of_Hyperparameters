@@ -1,0 +1,27 @@
+Running in wrapper mode for '20095'
+
+Running python job.
+
+job_id : 20095
+{u'kernel_hyperparameters': array([-2.71543195,  4.        ,  2.48325129, -1.73831108,  4.        ,
+        4.        , -4.        , -1.55108683, -1.01979723,  4.        ])}
+----------------------------------------
+Problem running the job:
+(<type 'exceptions.SystemExit'>, SystemExit(0,), <traceback object at 0x7f58faff8128>)
+Traceback (most recent call last):
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/spearmint-master/spearmint/spearmint/runner.py", line 41, in job_runner
+    elif job.language == PYTHON: run_python_job(job)
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/spearmint-master/spearmint/spearmint/runner.py", line 131, in run_python_job
+    result = module.main(job.id, params)
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/Testing/Diabetes_Dataset/Spearmint_Custom_RBF_CV/Diabetes.py", line 67, in main
+    result = svr(params['kernel_hyperparameters'])
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/Testing/Diabetes_Dataset/Spearmint_Custom_RBF_CV/Diabetes.py", line 44, in svr
+    sum_array = np.divide(np.square(Train_Features[x] - Train_Features[y]),np.square(np.power(kernel_hyperparameters,10))*2)
+  File "/home/ritwick/Desktop/Hopkins/Spearmint/spearmint-master/spearmint/bin/../spearmint/main.py", line 323, in sigint_handler
+    sys.exit(0)
+SystemExit: 0
+None
+----------------------------------------
+Job file reloaded.
+Could not find value in output file.
+Job failed in 17.42 seconds.

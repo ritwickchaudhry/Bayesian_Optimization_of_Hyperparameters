@@ -1,0 +1,22 @@
+Best result: 55.140702
+Job-id: 20037
+Parameters: 
+name: "custom_rbf_hyperparameters"
+dbl_val: 1.56179238695
+dbl_val: 3.0
+dbl_val: -2.0
+dbl_val: -2.0
+dbl_val: 1.38043160717
+dbl_val: 2.72526676838
+dbl_val: -1.22342638001
+dbl_val: 1.44816837661
+dbl_val: -2.0
+dbl_val: 0.818855429222
+name: "C"
+dbl_val: 10.0
+name: "gamma"
+dbl_val: 10.0
+name: "degree"
+int_val: 1
+name: "kernel"
+str_val: "rbf"

@@ -1,0 +1,22 @@
+Running in wrapper mode for '20030'
+
+Running python job.
+
+job_id : 20030
+{u'kernel': [u'rbf'], u'C': array([ 9.60350916]), u'custom_rbf_hyperparameters': array([ 1.30419108,  3.        , -2.        , -2.        ,  1.69735759,
+        3.        , -2.        ,  1.54569993, -2.        ,  1.5584168 ]), u'degree': array([1]), u'gamma': array([ 9.03965535])}
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+Enter
+55.4114560731
+Got result 55.411456
+
+Job file reloaded.
+Completed successfully in 0.56 seconds. [55.411456]
+setting job 20030 complete
+set...
